@@ -130,10 +130,43 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+/*
+ * Custom css
+ */
+
+.smoothy-booty-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-image {
+  height:800px;
+}
+.menu {
+  z-index: 0;
+}
+.masthead {
+  z-index: 1;
+}
+
 
 /*
  * Affix and center
  */
+
+@media (max-width: 500px) {
+  .smoothy-booty-icon {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .smoothy-booty-icon {
+    width: 90%;
+    height: 90%;
+  }
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
@@ -166,21 +199,3 @@ body {
 }
 
 
-/*
- * Custom css
- */
-
-.smoothy-booty-icon {
-  width: 100%;
-  height: 120%;
-}
-
-.menu-image {
-  height:800px;
-}
-.menu {
-  z-index: 0;
-}
-.masthead {
-  z-index: 1;
-}
