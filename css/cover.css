@@ -171,6 +171,15 @@ iframe {
   height: 400px;
 }
 
+.yelp-review {
+  margin: 0 auto;
+}
+
+#fb-like-btn {
+  width: 63px;
+  height: 100px;
+}
+
 .learn-more {
   margin-bottom: 10em;
 }
