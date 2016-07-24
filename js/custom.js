@@ -8,14 +8,8 @@ $(function() {
           scrollTop: target.offset().top
         }, 1000);
 
-        var parent = $(this).parent()
-        $(".nav li").removeClass("active");
-        parent.addClass("active");
-
         return false;
       }
     }
-
   });
-
 });
