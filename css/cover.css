@@ -196,10 +196,9 @@ iframe {
 
 
   .site-wrapper {
-
-    background: #2980b9; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF5F6D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
@@ -207,6 +206,12 @@ iframe {
   .smoothy-booty-icon {
     width: 90%;
     height: 90%;
+  }
+
+  .site-wrapper {
+    background: #FF5F6D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
