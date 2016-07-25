@@ -200,6 +200,10 @@ iframe {
     background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
+  .container-fluid {
+    background: rgba(77, 77, 77, 0.0);
+  }
 }
 
 @media (max-width: 767px) {
@@ -212,6 +216,10 @@ iframe {
     background: #FF5F6D; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .container-fluid {
+    background: rgba(77, 77, 77, 0.0);
   }
 }
 
