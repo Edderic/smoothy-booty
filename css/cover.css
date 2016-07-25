@@ -266,6 +266,16 @@ iframe {
   .mastfoot,
   .cover-container {
   }
+  .site-wrapper {
+
+    background: url("../img/smoothie-line-up-3-scaled.jpg") no-repeat fixed;
+    background-size: cover;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  }
+  .container-fluid {
+    background: rgba(77, 77, 77, 0.5);
+  }
 }
 
 
