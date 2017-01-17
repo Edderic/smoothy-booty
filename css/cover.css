@@ -211,10 +211,6 @@ iframe {
 }
 
 @media (max-width: 767px) {
-  .smoothy-booty-icon {
-    width: 90%;
-    height: 90%;
-  }
 
   .site-wrapper {
     background: #FF5F6D; /* fallback for old browsers */
