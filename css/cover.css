@@ -145,10 +145,10 @@ body {
   height: 40em;
 }
 
-.menu-image {
-  max-width: 400px;
-  max-height: 800px;
-}
+/* .menu-image { */
+  /* max-width: 400px; */
+  /* max-height: 800px; */
+/* } */
 .menu {
   z-index: 0;
 }
@@ -264,6 +264,10 @@ iframe {
 }
 
 @media (min-width: 992px) {
+  .row {
+    display: flex;
+    justify-content: center;
+  }
   .masthead,
   .mastfoot,
   .cover-container {
