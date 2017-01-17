@@ -255,7 +255,7 @@ iframe {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1400) {
   .row {
     display: flex;
     justify-content: center;
