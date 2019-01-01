@@ -162,8 +162,8 @@ h1 {
 
 .container-fluid {
   background: rgba(77, 77, 77, 0.45);
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .carousel-inner img {
